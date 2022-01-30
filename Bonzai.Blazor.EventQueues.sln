@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonzai.Blazor.EventQueues", "Bonzai.Blazor.EventQueues\Bonzai.Blazor.EventQueues.csproj", "{18F9825A-1316-4A03-80B2-540CB7728639}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5A77B451-A335-4580-B41F-F1595108056E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonzai.Blazor.EventQueues.Tests", "Bonzai.Blazor.EventQueues.Tests\Bonzai.Blazor.EventQueues.Tests.csproj", "{02DF1E74-B0DD-47B9-BA89-A44220146618}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{28871D35-309D-4E77-A667-40E2CFAEA627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonzai.Blazor.EventQueues.Documentation.Wasm", "Bonzai.Blazor.EventQueues.Documentation.Wasm\Bonzai.Blazor.EventQueues.Documentation.Wasm.csproj", "{F3CAAFB7-345A-465F-AC85-CF4839EDF7FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonzai.Blazor.EventQueues.Documentation.Server", "Bonzai.Blazor.EventQueues.Documentation.Server\Bonzai.Blazor.EventQueues.Documentation.Server.csproj", "{04697BCE-F05D-4490-A8CC-48F2BC77E862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonzai.Blazor.EventQueues.Documentation", "Bonzai.Blazor.EventQueues.Documentation\Bonzai.Blazor.EventQueues.Documentation.csproj", "{89E72892-D04F-47D0-A064-B3FC6B33ACD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18F9825A-1316-4A03-80B2-540CB7728639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F9825A-1316-4A03-80B2-540CB7728639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F9825A-1316-4A03-80B2-540CB7728639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F9825A-1316-4A03-80B2-540CB7728639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DF1E74-B0DD-47B9-BA89-A44220146618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DF1E74-B0DD-47B9-BA89-A44220146618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DF1E74-B0DD-47B9-BA89-A44220146618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DF1E74-B0DD-47B9-BA89-A44220146618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CAAFB7-345A-465F-AC85-CF4839EDF7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CAAFB7-345A-465F-AC85-CF4839EDF7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CAAFB7-345A-465F-AC85-CF4839EDF7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CAAFB7-345A-465F-AC85-CF4839EDF7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04697BCE-F05D-4490-A8CC-48F2BC77E862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04697BCE-F05D-4490-A8CC-48F2BC77E862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04697BCE-F05D-4490-A8CC-48F2BC77E862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04697BCE-F05D-4490-A8CC-48F2BC77E862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E72892-D04F-47D0-A064-B3FC6B33ACD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E72892-D04F-47D0-A064-B3FC6B33ACD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E72892-D04F-47D0-A064-B3FC6B33ACD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E72892-D04F-47D0-A064-B3FC6B33ACD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02DF1E74-B0DD-47B9-BA89-A44220146618} = {5A77B451-A335-4580-B41F-F1595108056E}
+		{F3CAAFB7-345A-465F-AC85-CF4839EDF7FE} = {28871D35-309D-4E77-A667-40E2CFAEA627}
+		{04697BCE-F05D-4490-A8CC-48F2BC77E862} = {28871D35-309D-4E77-A667-40E2CFAEA627}
+		{89E72892-D04F-47D0-A064-B3FC6B33ACD8} = {28871D35-309D-4E77-A667-40E2CFAEA627}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A836064-8864-434D-B907-37A92B4E5611}
+	EndGlobalSection
+EndGlobal
